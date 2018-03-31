@@ -1,0 +1,69 @@
+
+<p>
+<a href="{!!url('auth/mobile/profile/'.$user->id.'/edit')!!}" class="btn red">
+	<i class="material-icons left">edit</i>
+	{!!trans('front.edit')!!}
+</a>
+</p>
+<table class="table striped bordered">
+				<tr>
+						<th>{!!trans('front.username')!!}</th>
+						<td>{!!Auth::user('user')->username!!}</td>
+				</tr>
+				<tr>
+						<th>{!!trans('front.rank_name')!!}</th>
+						<td>@if($user->rank) {!!$user->rank->rank_name!!} @endif</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.email')!!}</th>
+					 <td>{!!Auth::user('user')->email!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.phone')!!}</th>
+					 <td>{!!Auth::user('user')->phone!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.nickname')!!}</th>
+					 <td>{!!Auth::user('user')->nickname!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.sex')!!}</th>
+					 <td>{!!$user->sex()!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.birthday')!!}</th>
+					 <td>{!!Auth::user('user')->birthday!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.sfz')!!}</th>
+					 <td>{!!Auth::user('user')->sfz!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.pay_points')!!}</th>
+					 <td>{!!Auth::user('user')->pay_points!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.rank_points')!!}</th>
+					 <td>{!!Auth::user('user')->rank_points!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.register_ip')!!}</th>
+					 <td>{!!Auth::user('user')->ip!!}</td>
+				</tr>
+				<tr>
+					<th>注册来源</th>
+					<td>{{Auth::user('user')->reg_from}}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.login_ip')!!}</th>
+					 <td>{!!Request::getClientIp()!!}</td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.register_time')!!}</th>
+					 <td><?php echo date('Y/m/d',Auth::user('user')->add_time);?></td>
+				</tr>
+				<tr>
+					 <th>{!!trans('front.last_login_time')!!}</th>
+					 <td>{!!$user->last_login_time()!!}</td>
+				</tr>
+</table>

@@ -1,0 +1,312 @@
+.top{
+	height:60px;
+	background:#2d5f8b;
+	position:relative;
+	font-family:'微软雅黑';
+}
+
+.logo{
+	margin-top:20px;
+}
+
+.right-link{
+	position:absolute;
+	top:15px;
+	right:5px;
+}
+
+.left-menu{
+	height:100%;
+	background:#4276a4;
+}
+
+.content-box{
+	padding:20px;
+}
+
+
+
+.page-bar i{
+	margin-right:5px;
+}
+
+.footer{
+	width:100%;
+	height:40px;
+	background:#2d5f8b;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	font-family:'微软雅黑';
+}
+
+.offset-top{
+	margin-top:20px;
+}
+
+.offset-bottom{
+	margin-bottom:20px;
+}
+
+label.error{
+	color:#d9534f;
+	position:absolute;
+	top:8px;
+	right:25px;
+}
+
+label.valid{
+	color:#5cb85c;
+}
+
+.right-link{
+	position:absolute;
+	top:10px;
+	right:5px;
+}
+
+table th.tit{
+	cursor:pointer;
+}
+
+.config-img{
+	width:150px;
+}
+
+.thumb{
+	width:60px;
+	height:60px;
+}
+
+/*********** 商品的配置文件 *****************/
+ps.tab{
+	margin:10px;
+}
+
+.ps-tab-title{
+	width:100%;
+	height:50px;
+	margin-top:10px;
+	background:#f5f5f5;
+	border-bottom:2px solid #0fa2d5;
+	padding-left:0;
+}
+.ps-tab-title li{
+	display:block;
+	width:100px;
+	height:50px;
+	float:left;
+	overflow:hidden;
+	line-height:50px;
+	text-align:center;
+	font-size:14px;
+	font-family:'微软雅黑';
+	color:#666;
+	cursor:pointer;
+}
+
+.ps-tab-title li.cur{
+	background:#0fa2d5;
+	color:#fff;
+}
+
+.ps-tab-content-item{
+	display:none;
+}
+
+.ps-tab-content .cur{
+	display:block;
+}
+
+
+#goods-img-list{
+	width:100%;
+	clear:both;
+}
+
+#goods-img-list .img-item{
+	width:200px;
+	height:200px;
+	border:2px solid #1d9d74;
+	float:left;
+	margin:5px;
+	position:relative;
+}
+
+#goods-img-list img{
+	display:block;
+	width:180px;
+	height:180px;
+	margin:10px;
+}
+
+#goods-img-list span.img-del-edit,
+#goods-img-list span.img-del{
+	position:absolute;
+	width:200px;
+	height:40px;
+	background:#1d9d74;
+	top:80px;
+	left:0;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	cursor:pointer;
+	opacity:0.8;
+}
+
+#goods-img-list span.img-del-edit:hover,
+#goods-img-list span.img-del:hover{
+	background:#ff6600;
+}
+
+.goods-img-list{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+.goods-img-list .img-item{
+	width:250px;
+	height:250px;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	overflow:hidden;
+	position:relative;
+}
+
+.goods-img-list .img-item img{
+	width:200px;
+	height:200px;
+}
+
+.del-img-btn-ajax{
+	position:absolute;
+	top:80px;
+	left:60px;
+}
+
+.goods-img-list .img-item img:hover{
+	border:2px solid #ff6600;
+}
+
+.order-total-btn{
+	font-weight:bold;
+	font-size:16px;
+	line-height:40px;
+}
+
+.order-total-btn .num{
+	color:#ff6600;
+}
+
+a.back-btn{
+	display:block;
+	width:50px;
+	height:50px;
+	background:#5cb85c;
+	border:1px solid #4cae4c;
+	border-radius:50%;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	font-weight:bold;
+}
+
+a.back-btn span{
+	margin-top:10px;
+	font-size:24px;
+}
+
+/***/
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 13px;
+  line-height: 1.42857143;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #daf1e7;
+}
+
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr.active:hover > th {
+  background-color: #31bc86;
+  color:#fff;
+}
+
+.color-btn{
+	display:block;
+	width:120px;
+	height:40px;
+	margin:0 auto;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+}
+
+.green{
+	color:#27ae60;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.org{
+	color:#ff6600;
+	font-weight:bold;
+	font-size:18px;
+}
+
+a.one span.menu-text{
+	font-weight:bold;
+}
+
+li.two a span.menu-text{
+	color:#ffcc00;
+}
+
+.btn-div{
+	margin:5px;
+	float:left;
+}
+
+img.theme-thumb{
+	width: 300px;
+	height: 300px;
+	border: 4px solid #f5f5f5;
+}
+
+.theme-item{
+	
+	margin: 20px;
+}
+
+.theme-item .col-md-4{
+
+	margin-bottom: 10px;
+}
+
+.theme-item p{
+	text-align: left;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+img.active{
+
+	border: 4px solid #ff6600;
+}

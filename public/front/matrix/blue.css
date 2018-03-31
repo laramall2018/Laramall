@@ -1,0 +1,24 @@
+#header-bottom{
+	background:#2196f3;
+}
+
+#search-bar{
+  border: 3px solid #2196f3;
+}
+
+#search-bar .home-search-btn{
+  background: #2196f3;
+}
+
+.ps-home-menu-tit{
+  background: #2196f3;
+}
+
+.unslider-nav ol li.unslider-active{
+	background:#2196f3;
+	color:#fff;
+}
+
+.goods-list-grid .item .cart-icon{
+	background: #2196f3;
+}

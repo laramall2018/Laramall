@@ -1,0 +1,54 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "<enter your title>"
+    },
+    "paths": {
+        "/api/cart": {
+            "get": {
+                "description": "获取 `data` 对象.\n获取购物车中商品列表信息和商品总金额\n返回购物车的状态\n",
+                "parameters": [
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "Size of array",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "schema": {
+                            "title": "data",
+                            "type": "array",
+                            "items": {
+                                "title": "cart_list",
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "number"
+                                    },
+                                    "user_id": {
+                                        "type": "number"
+                                    },
+                                    "goods_id": {
+                                        "type": "number"
+                                    },
+                                    "goods_sn": {
+                                        "type": "string"
+                                    },
+                                    "thumb": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

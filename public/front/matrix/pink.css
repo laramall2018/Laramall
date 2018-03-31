@@ -1,0 +1,19 @@
+#header-bottom{
+	background:#f73679;
+}
+
+#search-bar{
+  border: 3px solid #f73679;
+}
+
+#search-bar .home-search-btn{
+  background: #f73679;
+}
+
+.ps-home-menu-tit{
+  background: #f73679;
+}
+
+.goods-list-grid .item .cart-icon{
+	background: #f73679;
+}

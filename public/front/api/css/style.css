@@ -1,0 +1,11 @@
+
+.panel-common{
+
+	width: 600px;
+	margin:100px 0;
+}
+
+.panel-common .panel-body{
+
+	padding: 50px;
+}
